@@ -158,7 +158,7 @@
 /////////////////////////////////////
 // Part III: functions
 
-// function is a re-usable block of code; it is another non-primitive type
+// function is a re-usable block of code; it is another non-primitive type. Like a machine with input/output
 
 //assigning a function literal to a variable
 // var calculateArea = function(width, height){ // function has inputs/arguments/parameters
@@ -167,8 +167,10 @@
 
 // call/invoke the function
 // var result = calculateArea(3, 4);
-// alert(result)
+// alert(result);
 
+// var anotherReference = calculateArea;
+// var squareFeet = calculateArea(400,600)
 // Put anything inside of a function
 // var pluralize = function(word, number){
 //     if ( number === 1 ) {
